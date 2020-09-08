@@ -62,7 +62,7 @@ def update_estimates(q, choice_count, step_size, action, reward):
 
 
 VARIANCE_OF_EACH_ARM = 1
-VARIANCE = 1
+VARIANCE = 0
 MEAN = 0
 """
 Returns a set of arms which have their mean picked from a normal distribution(MEAN, VARIANCE) and variance = VARIANCE_OF_EACH_ARM
