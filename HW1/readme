@@ -1,0 +1,15 @@
+Name: Setu Gupta
+Roll number: 2018190
+Email: setu18190@iiitd.ac.in
+
+Code can be found in the code directory. In the code directory you will also find png images of plots in seperate directories by the name q<number>_plots.
+The report is in a pdf format stored in theory directory.
+
+Dependencies:
+	matplotlib
+	numpy
+
+How to run the code:
+	$python3 path/to/.py/file
+
+Every code will print a progress report on the terminal.
