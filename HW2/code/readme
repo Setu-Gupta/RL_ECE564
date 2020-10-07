@@ -1,0 +1,4 @@
+q6_pi solves q6 using policy iterations.
+q6_pi solves q6 using value iterations.
+q7_example solves q7's example problem.
+q7_modified solves q7's modified problem given in exercize 4.7.
