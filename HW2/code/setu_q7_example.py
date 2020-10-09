@@ -571,7 +571,7 @@ class jacks_rental:
 				for ns in self.sa.get_states():
 					p, r = self.__get_probability_and_reward(intermidiate_state, ns)
 					assert p <= 1
-					r -= abs(a)	# Cost of moving
+					r -= 2*abs(a)	# Cost of moving
 					next_states_rewards.append((ns,r))
 					self.mdp.set_probability(s,a,ns,r,p)	# Store probability
 					done_count += 1

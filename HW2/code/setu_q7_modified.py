@@ -571,7 +571,10 @@ class jacks_rental:
 				for ns in self.sa.get_states():
 					p, r = self.__get_probability_and_reward(intermidiate_state, ns)
 					assert p <= 1
-					r -= max(0, abs(a) - 1)	# Cost of moving. Subtract 1 for free moving by employee
+					if(a > 0):	# Moving cars from A to B
+						r -= 2*(a - 1) # Cost of moving. Subtract 1 for free moving by employee
+					else:	# Moving cars from B to A
+						r -= 2*abs(a)	
 					if(ns[0] > 10): # Cost for parking
 						r -= 4
 					if(ns[1] > 10): # Cost for parking
