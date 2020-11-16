@@ -1,0 +1,9 @@
+Q4:
+	setu_q4_f1.py generates fig 5.1 in a text format
+	setu_q4_f2.py generates fig 5.3 in a text format
+	setu_q4_f3.py generates fig 5.3
+Q6:
+	setu_q6_left.py generates half of figure in example 6.2
+	setu_q6_right.py generates other half of figure in example 6.2
+Q7:
+	setu_q7.py generated the required figure. The data is averaged over 100 runs for remove noise. alpha is kept as 0.2
